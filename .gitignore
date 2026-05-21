@@ -1,0 +1,67 @@
+####################
+# REN'PY GENERATED #
+####################
+
+# Directories that Ren'Py changes files in.
+/game/saves
+/game/cache
+
+# Compiled script files. These are important for saving, and so should
+# be preserved by developer and build systems after the game has been released.
+/game/**/*.rpyc
+/game/**/*.rpymc
+
+# Files Ren'Py can generate.
+/game/**/*.bak
+/game/**/*.new
+/game/**/*.old
+
+# Error, log, and output files.
+/errors.txt
+/files.txt
+/image_cache.txt
+/log.txt
+/save_dump.txt
+/traceback.txt
+
+game/errors.txt
+game/files.txt
+game/image_cache.txt
+game/log.txt
+game/save_dump.txt
+game/traceback.txt
+
+# Launcher-generated files.
+/dialogue.tab
+/dialogue.txt
+/strings.json
+
+
+#########
+# START #
+#########
+
+# no junk 
+.vscode
+.DS_Store
+Thumbs.db
+
+# no asset files 
+game/assets/audio/music/*
+game/assets/audio/sfx/*
+game/assets/images/bg/*
+game/assets/images/cg/*
+game/assets/images/sprites/*
+game/assets/video/*
+game/assets/fonts/*
+game/gui/**
+
+# INCLUDE
+!game/assets/audio/music/.gitkeep
+!game/assets/audio/sfx/.gitkeep
+!game/assets/images/bg/.gitkeep
+!game/assets/images/cg/.gitkeep
+!game/assets/images/sprites/.gitkeep
+!game/assets/video/.gitkeep
+!game/assets/fonts/.gitkeep
+!game/gui/README.md 
